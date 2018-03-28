@@ -8,7 +8,7 @@ console.log(regexString);
 const options = {
   files: "coverage/lcov.info",
   from: new RegExp(regexString, "g"),
-  to: "/SonarAngularDemo"
+  to: "SonarAngularDemo"
 };
 
 replace(options)
